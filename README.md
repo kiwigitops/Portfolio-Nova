@@ -1,4 +1,4 @@
-# Portfolio Nova
+# Portfolio Novab
 
 A modern, portfolio-style one-page template built with plain HTML, CSS, and JavaScript.
 
