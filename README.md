@@ -2,7 +2,7 @@
 
 A modern, portfolio-style one-page template built with plain HTML, CSS, and JavaScript.
 
-## Highlights
+## Highlighter
 
 - Distinct visual identity with custom typography and layered gradients
 - Responsive layout for desktop, tablet, and mobile
