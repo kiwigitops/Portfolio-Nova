@@ -35,7 +35,11 @@ if (header) {
   onScroll();
 }
 
-if (revealNodes.length > 0) {
+if (revealNodes.length > 0 && !("IntersectionObserver" in window)) {
+  revealNodes.forEach((node) => node.classList.add("visible"));
+}
+
+if (revealNodes.length > 0 && "IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
